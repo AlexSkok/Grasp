@@ -12,8 +12,7 @@ public class User{
         return this.address.getAddress();
     }
 
-    public void setAddress(Address userAddress, String address) {
-        this.address = userAddress;
-        userAddress.setAddress(address);
+    public void setAddress(String address) {
+        this.address.setAddress(address);
     }
 }
