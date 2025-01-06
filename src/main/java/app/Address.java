@@ -1,9 +1,13 @@
 package app;
 
 public class Address {
-    String address;
+    private String address;
 
-    public Address(String address) {
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
         this.address = address;
     }
 }

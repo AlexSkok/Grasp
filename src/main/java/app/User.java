@@ -1,13 +1,12 @@
 package app;
 
-public class User {
-    Address userAddress;
+public class User{
 
-    public Address getAddress() {
-        return userAddress;
+    public String getAddress(Address userAddress) {
+        return userAddress.getAddress();
     }
 
-    public void setAddress(Address userAddress) {
-        this.userAddress = userAddress;
+    public void setAddress(Address userAddress, String address) {
+        userAddress.setAddress(address);
     }
 }
